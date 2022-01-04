@@ -1,1 +1,11 @@
 <img src="image/muhammad.png" alt="Muhammad" width="100%">
+
+Route::get('/', function () {
+    return view('home');
+});
+Route::get('/profile', function () {
+    return view('profile');
+});
+Route::get('/universitas', function () {
+    return view('universitas');
+});
